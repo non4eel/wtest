@@ -1,0 +1,15 @@
+{
+  "name": "ddlearn",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "concurrently \"npm run sync\"",
+    "sync": "browser-sync start --watch --files=\"./**/*.html,./**/*.css,./**/*.js,.\" -s"
+  },
+  "keywords": [],
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "alpinejs": "^3.13.2"
+  }
+}
