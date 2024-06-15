@@ -20,12 +20,13 @@ body {
 
 body {
     font: 14px/22px Roboto, Arial, Helvetica, sans-serif;
+    height: 8000px;
 }
 
 header,
 footer {
     width: 100%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 a {
