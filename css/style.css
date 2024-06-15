@@ -47,3 +47,40 @@ header {
     top: 0;
     width: 100%;
 }
+
+.main__menu {
+    max-height: 72px;
+    justify-content: center;
+}
+
+.main__menu,
+.cat__menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    width: 1440px;
+}
+
+.cat__menu {
+    max-height: 67px;
+    background: #0BC154;
+    justify-content: space-between;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-items li a {
+    color: gray;
+}
+
+.menu-items li a:hover {
+    color: white;
+}
+
+.menu-items li a.btn-active {
+    color: white;
+}
