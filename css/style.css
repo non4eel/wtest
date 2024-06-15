@@ -49,7 +49,6 @@ header {
 }
 
 /* menu */
-
 .main__menu {
     max-height: 72px;
     justify-content: center;
@@ -68,42 +67,42 @@ header {
     background: #0BC154;
 }
 
-.menu-items {
+.main__menu-items {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.main-items,
-.cat-items,
-.user-items  {
+.main-item,
+.cat-item,
+.user-item {
     width: 50%;
 }
 
-.main-items,
-.cat-items {
+.main-item,
+.cat-item {
     justify-content: space-between;
 }
 
-.main-items li a {
+.main-item li a {
     color: #252525;
     font-size: 16px;
     font-weight: 300;
 }
 
-.main-items li a:hover, 
-.main-items li a.btn-active{
+.main-item li a:hover, 
+.main-item li a.btn-active{
     font-size: 20px;
     font-weight: 400;
     color: #252525;
 }
 
-.user-items {
+.user-item {
     justify-content: flex-end
 }
 
-.cat-items li a,
-.user-items li a {
+.cat-item li a,
+.user-item li a {
     font-size: 16px;
     font-weight: 600;
     color:#FFFFFF;
