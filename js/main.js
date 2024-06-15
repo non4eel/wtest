@@ -21,4 +21,5 @@ for (let i = 0; i < menuLength; i++) {
     if (menuItem[i].href === currentLocation) {
         menuItem[i].classList.add("btn-active");
     }
-}
+} 
+
