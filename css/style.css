@@ -1,10 +1,49 @@
 @font-face {
-    font-family: "";
-    src: url("../fonts/Rubik/static/Rubik-Light.ttf") format("truetype");
+    font-family: "Inter";
+    src: url("../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
     --first: ;
+}
+
+/* common */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 14px/22px Roboto, Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+    width: 100%;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+header {
+    background: white;
+    z-index: 999;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
