@@ -38,11 +38,11 @@ header {
     z-index: 999;
 }
 
-.sticky {
+/* .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} *.
 
 /* menu */
 .main__menu {
@@ -108,11 +108,11 @@ header {
 
 /* production (main page) */
 main {
-    margin: 125px auto;
+    margin: 0 auto;
 }
 
 .prod {
-    margin: 0 auto;
+    margin: 0 auto; /* 125px auto - for sticky */
     width: 1440px;
     flex-direction: column;
 }
