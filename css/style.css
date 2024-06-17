@@ -64,7 +64,7 @@ header {
 
 .cat__menu {
     max-height: 67px;
-    background: #0BC154;
+    background: linear-gradient(to right, #0BC154, #16EAAB);
 }
 
 .main__menu-items {
@@ -98,7 +98,8 @@ header {
 }
 
 .user-item {
-    justify-content: flex-end
+    justify-content: flex-end;
+    margin-right: 24px;
 }
 
 .cat-item li a,
@@ -107,5 +108,26 @@ header {
     font-weight: 600;
     color:#FFFFFF;
 }
+
+/* production */
+.production {
+    width: 1440px;
+    height: 100p0x;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+}
+
+.production div {
+    width: 100%;
+    display: flex;
+}
+
+.production div ul {
+    list-style: circle;
+}
+
+
 
 
