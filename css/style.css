@@ -112,22 +112,14 @@ header {
 /* production */
 .production {
     width: 1440px;
-    height: 100p0x;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    background: black;
 }
 
-.production div {
-    width: 100%;
-    display: flex;
-}
-
-.production div ul {
+.production ul {
     list-style: circle;
 }
-
 
 
 
