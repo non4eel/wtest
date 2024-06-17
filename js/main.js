@@ -24,9 +24,3 @@ for (let i = 0; i < menuLength; i++) {
 } 
 
 /* carousel */
-
-
-
-
-
-
