@@ -16,8 +16,8 @@
             <ul class="main__menu-items main-item">
                 <li><a class="nav-btn" href="#">О Батерфут</a></li>
                 <li><a class="nav-btn" href="#">О нас</a></li>
-                <li><a class='nav-btn' href='/'>Baterfoot</a></li>
-                <li><a class='nav-btn' href='/contacts'>Контакты</a></li>
+                <li><a class='nav-btn' href="index.html">Baterfoot</a></li>
+                <li><a class='nav-btn' href="contacts.html">Контакты</a></li>
                 <li><a class="nav-btn" href="#">Доставка</a></li>
             </ul>
         </nav>
@@ -73,7 +73,7 @@
             </div>
 
             <div class="prod__wrapper prod__size">
-                <div class="prod__size-pics prod__size-inner">
+                <div class="prod__size-pics">
                     <div class="pics-item">
                         <a href="images/sneaker.svg"><img src="images/sneaker.svg" alt="sneaker img"></a>
                     </div>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
 
-                <div class="prod__size-region prod__size-inner">
+                <div class="prod__size-region">
                     <ul>
                         <li>Выберите размер</li>
                         <li><a class="size-btn" href="#eu-sizes">EU</a></li>
@@ -99,7 +99,7 @@
                     </ul>
                 </div>
 
-                <div class="prod__size-button prod__size-inner">
+                <div class="prod__size-button" id="eu-sizes">
                     <button id="btnSize-1" class="choosen-size">32</button>
                     <button id="btnSize-2" class="choosen-size">33</button>
                     <button id="btnSize-3" class="choosen-size">37</button>
@@ -107,10 +107,10 @@
                     <button id="btnSize-5" class="choosen-size">45</button>
                 </div>
 
-                <div class="prod__size-feet prod__size-inner">
+                <div class="prod__size-feet">
                     <label for="feetSize">Определить размер: Введите размер вашей ступни в сантиметрах*</label>
                     <span>Размерная сетка</span>
-                    <input type="text" name="feetSize" placeholder="Длина ступни" value="" id="feetSize">
+                    <input type="text" name="feetSize" placeholder="Длина ступни см" value="" id="feetSize">
                 </div>
 
                 <div class="prod__size-basket">
@@ -120,7 +120,25 @@
             </div>
 
             <div class="prod_wrapper prod__description">
-                <div class="prod__description-about"></div>
+                <div class="prod__description-point">
+                    <ul>
+                        <li><a class="desc-btn" href="#about">О товаре</a></li>
+                        <li><a class="desc-btn" href="#send">Доставка и оплата</a></li>
+                        <li><a class="desc-btn review" href="#review"></a></li>
+                    </ul>
+                </div>
+
+                <div class="prod__description-about">
+                    <h1>Описание товара</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat<br> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+
+                <div class="prod__description-character"></div>
             </div>
 
             <div class="prod__wrapper prod__related"></div>  

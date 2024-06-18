@@ -26,3 +26,20 @@ for (let i = 0; i < menuLength; i++) {
 } 
 
 /* carousel */
+
+/* review count*/
+const reviewCount = document.querySelector('.review');
+let count = 0;
+
+updateDisplay();
+
+reviewCount.addEventListener("click", () => {
+    count++;
+    updateDisplay();
+});
+
+
+function updateDisplay() {
+    reviewCount.innerHTML = 'Отзывы' + ' ' + count;
+};
+

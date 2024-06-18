@@ -7,6 +7,7 @@
 
 :root {
     --border-thin: 1px solid #000000; 
+    --border-thinner: 1px solid #BABABA;
     --border-radius: 8px;
     --btn-height: 56px;
     --btn-padding: 16px 10px;
@@ -332,8 +333,70 @@ button.after-size {
 
 /* description */
 .prod__description {
-    border: 1px solid #BABABA;
+    padding: 50px 0;
+    border-top: var(--border-thinner);
+    flex-direction: column;
+    justify-content: center;
 }
+
+.prod__description-point {
+    display: flex;
+    flex-direction: column;
+}
+
+.prod__description-point ul {
+    width: 543px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: var(--border-thinner);
+}
+
+.prod__description-point ul li:first-child {
+    margin-left: -40px;
+}
+
+.prod__description-point ul li:not(:first-child) {
+    margin-left: 48px;
+}
+
+.prod__description-point ul li a {
+    color: #767676;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.prod__description-point ul li a:hover,
+.prod__description-point ul li a:active,
+.prod__description-point ul li a:focus {
+    color: #000000;
+    border-bottom: var(--border-thin);
+}
+
+.prod__description-about {
+    width: 1039px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prod__description-about h1 {
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.prod__description-about p {
+    margin: 0 auto 50px auto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+}
+
 
 
 
