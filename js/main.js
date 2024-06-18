@@ -1,4 +1,5 @@
-/* sticky header 
+/* 
+// sticky header 
 window.onscroll = function () { getSticky() };
 
 const header = document.getElementById("header");
@@ -10,7 +11,8 @@ function getSticky() {
     } else {
         header.classList.remove("sticky");
     }
-} *.
+} 
+*/
 
 /* active menu item */
 const currentLocation = location.href;

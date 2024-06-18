@@ -73,7 +73,7 @@
             </div>
 
             <div class="prod__wrapper prod__size">
-                <div class="prod__size-pics">
+                <div class="prod__size-pics prod__size-inner">
                     <div class="pics-item">
                         <a href="images/sneaker.svg"><img src="images/sneaker.svg" alt="sneaker img"></a>
                     </div>
@@ -88,9 +88,29 @@
                     </div>
                 </div>
 
-                <div class prod__size-numbers>
-                    <div class="size-choose">Выберите размер </div>
-                    <div class="size-number"></div>
+                <div class="prod__size-region prod__size-inner">
+                    <ul>
+                        <li>Выберите размер</li>
+                        <li><a class="size-btn" href="#eu-sizes">EU</a></li>
+                        <li><a class="choose-size" href="#us-sizes">US</a></li>
+                        <li><a class="choose-size" href="#rus-sizes">RUS</a></li>
+                        <li><a class="choose-size" href="#cm-sizes">CM</a></li>
+                        <li><a class="choose-size" href="#uk-sizes">UK</a></li>
+                    </ul>
+                </div>
+
+                <div class="prod__size-button prod__size-inner">
+                    <button id="buttonSize" class="choosen-size">32</button>
+                    <button id="buttonSize" class="choosen-size">33</button>
+                    <button id="buttonSize" class="choosen-size">37</button>
+                    <button id="buttonSize" class="choosen-size">40</button>
+                    <button id="buttonSize" class="choosen-size">45</button>
+                </div>
+
+                <div class="prod__size-feet prod__size-inner">
+                    <label for="feetSize">Определить размер: Введите размер вашей ступни в сантиметрах*</label>
+                    <span>Размерная сетка</span>
+                    <input type="text" name="feetSize" placeholder="Длина ступни" value="см" id="feetSize">
                 </div>
             </div>
 
@@ -98,7 +118,7 @@
                 <div class="prod__description-about"></div>
             </div>
 
-            <div class="prod__wrapper prod__related"></div>
+            <div class="prod__wrapper prod__related"></div>  
 
         </div>
     </main>
