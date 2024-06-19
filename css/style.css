@@ -117,8 +117,7 @@ main {
 }
 
 .prod {
-    margin: 0 auto;
-    /* 125px auto - for sticky */
+    margin: 0 auto; /* 125px auto - for sticky */
     width: 1392px;
     flex-direction: column;
 }
@@ -487,4 +486,10 @@ button.after-size {
 .item-card-info span.card-info-name,
 .item-card-info span.card-info-size {
     margin-top: 1.2em;
+}
+
+@media screen and (max-width: 1080px) {
+    .prod {
+        margin-left: 2.5%;
+    }
 }
