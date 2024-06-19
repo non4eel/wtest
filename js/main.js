@@ -26,6 +26,12 @@ for (let i = 0; i < menuLength; i++) {
 } 
 
 /* carousel */
+const scroller = document.querySelector('.prod__carousel');
+
+scroller.addEventListener("wheel", (evt) => {
+    evt.preventDefault();
+    scroller.scrollLeft += evt.deltaY;
+});
 
 /* review count*/
 const reviewCount = document.querySelector('.review');
