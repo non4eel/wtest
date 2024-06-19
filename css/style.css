@@ -492,4 +492,8 @@ button.after-size {
     .prod {
         margin-left: 2.5%;
     }
+
+    .related-point ul li a {
+        padding: 0;
+    }    
 }
